@@ -17,3 +17,6 @@ class BaseSort(object):
             print("Succ!")
         else:
             print("Failed!")
+            print("Expect: ", self.sorted_data)
+            print("Actual: ", result)
+
